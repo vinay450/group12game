@@ -14,15 +14,12 @@
               for(var e = 0; e < elements.length; elements[e].muted = !elements[e].muted, e++);
             }
             function playMusic(){
-                let not_started = true
                 var music = new Audio('assets/music/Adventure-320bit.mp3');
-                if (not_started === true) {
                     music.play();
-                    not_started = false;
-                } else {
+            }
+            function stopMusic(){
+                var music = new Audio('assets/music/Adventure-320bit.mp3');
                     music.pause();
-                    not_started = true;
-                }
             }
             </script>
         <button onclick="playMusic()">PLAY BGM</button>
