@@ -17,9 +17,15 @@
               var music = new Audio('assets/music/Adventure-320bit.mp3');
               music.play();
             }
+            function stopMusic(){
+              var music = new Audio('assets/music/Adventure-320bit.mp3');
+              music.pause();
+              music.currentTime = 0;
+            }
             </script>
         <button onclick="playMusic()">PLAY BGM</button>
         <button onclick="toggleSound()">MUTE</button>
+        <button onclick="stopMusic()">STOP BGM</button>
             
         <audio 
             src="assets/music/Adventure-320bit.mp3" 
