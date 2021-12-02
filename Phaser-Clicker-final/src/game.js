@@ -313,6 +313,8 @@ game.state.add('play', {
             dmgText.reset(pointer.positionDown.x, pointer.positionDown.y);
             dmgText.alpha = 1;
             dmgText.tween.start();
+            var audio = new Audio('assets/sfx/mixkit-small-hit-in-a-game-2072.wav');
+            audio.play()
         }
 
         // update the health text
