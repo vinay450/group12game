@@ -14,18 +14,15 @@
               for(var e = 0; e < elements.length; elements[e].muted = !elements[e].muted, e++);
             }
             function playMusic(){
-              var music = new Audio('assets/music/Adventure-320bit.mp3');
-              music.play();
+                var started = false
+                var music = new Audio('assets/music/Adventure-320bit.mp3');
+                if (!started) {music.play();} else {music.pause();}
             }
-            function stopMusic(){
-              var music = new Audio('assets/music/Adventure-320bit.mp3');
-              sound.pause();
-              sound.currentTime = 0;
+
             }
             </script>
         <button onclick="playMusic()">PLAY BGM</button>
         <button onclick="toggleSound()">MUTE</button>
-        <button onclick="stopMusic()">STOP BGM</button>
             
         <audio 
             src="assets/music/Adventure-320bit.mp3" 
