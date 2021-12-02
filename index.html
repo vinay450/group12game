@@ -16,7 +16,7 @@
             function playMusic(){
                 let started = false
                 var music = new Audio('assets/music/Adventure-320bit.mp3');
-                if (!started) {
+                if (started === false) {
                     music.play();
                     started = true;
                 } else {
