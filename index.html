@@ -14,14 +14,14 @@
               for(var e = 0; e < elements.length; elements[e].muted = !elements[e].muted, e++);
             }
             function playMusic(){
-                let started = false
+                let not_started = true
                 var music = new Audio('assets/music/Adventure-320bit.mp3');
-                if (started === false) {
+                if (not_started === true) {
                     music.play();
-                    started = true;
+                    not_started = false;
                 } else {
                     music.pause();
-                    started = false;
+                    not_started = true;
                 }
             }
             </script>
