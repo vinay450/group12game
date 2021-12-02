@@ -13,12 +13,15 @@
               var elements = document.getElementsByTagName('audio');
               for(var e = 0; e < elements.length; elements[e].muted = !elements[e].muted, e++);
             }
+            function playMusic(){
+              var music = new Audio('musicfile.mp3');
+              music.play();
+            }
             </script>
-            
+        <input type="button" value="sound" onclick="playMusic()" />
         <button onclick="toggleSound()">MUTE</button>
             
         <audio 
-            controls
             src="assets/music/Adventure-320bit.mp3" 
             preload="auto" 
             loop="true" 
