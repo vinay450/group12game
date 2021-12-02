@@ -8,25 +8,9 @@
         <script src="lib/phaser.min.js"></script>
 
         <script src="src/game.js"></script>
-        <script>
-            function toggleSound() {
-              var elements = document.getElementsByTagName('audio');
-              for(var e = 0; e < elements.length; elements[e].muted = !elements[e].muted, e++);
-            }
-            function playMusic(){
-                var music = new Audio('assets/music/Adventure-320bit.mp3');
-                    music.play();
-            }
-            function stopMusic(){
-                var music = new Audio('assets/music/Adventure-320bit.mp3');
-                    music.pause();
-            }
-            </script>
-        <button onclick="playMusic()">PLAY BGM</button>
-        <button onclick="toggleSound()">MUTE</button>
-        <button onclick="stopMusic()">PAUSE BGM</button>
-            
+
         <audio 
+            controls
             src="assets/music/Adventure-320bit.mp3" 
             preload="auto" 
             loop="true" 
