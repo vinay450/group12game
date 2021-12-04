@@ -1,29 +1,15 @@
 # Credits
 
 Title:
-    2D RPG Enemy Set
+    Adventer Background Music
 
-Author:
-    Various
-
-URL:
-    http://opengameart.org/content/2d-rpg-enemy-set
-
-License(s):
-    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
-    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
-    * GPL 2.0 ( http://www.gnu.org/licenses/old-licenses/gpl-2.0.html )
-
-Copyright/Attribution Notice:
-    Various people produced the sprites in this set. Please attribute to either "Hero of Allacrost - http://www.allacrost.org" or the individual artists listed below.
-
-- Brett Steele (Safir-Kreuz)
-- Joe Raucci (Sylon)
-- Vicki Beinhart (Namakoro)
-- Tyler Olsen (Roots)
+Adventure by Alexander Nakarada | https://www.serpentsoundstudios.com
+Music promoted by https://www.chosic.com/free-music/all/
+Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
 
 File(s):
-    * allacrost_enemy_sprites.zip
+    * Adventure-320bit.mp3
 
 ----------------------------------------
 
@@ -48,17 +34,54 @@ Title:
     Forest Background
 
 Author:
-    ansimuz
+    Nidhoggn
 
 URL:
-    http://opengameart.org/content/forest-background
+    https://opengameart.org/content/backgrounds-3
 
 License(s):
     * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
 
 File(s):
-    * parallax_forest_pack.zip
+    * battleback1.png
 
 ----------------------------------------
 
+Title:
+    Forest Background
+
+Author:
+    Ækashics
+
+URL:
+    https://aekashics.itch.io/aekashics-librarium-librarium-static-batch-megapack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * Aekashics Librarium Static Battlers.zip
+
+----------------------------------------
+
+Title:
+    Hit Sound
+
+Author:
+    https://mixkit.co/
+
+URL:
+    https://mixkit.co/free-sound-effects/game/
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * mixkit-small-hit-in-a-game-2072.wav
+
+----------------------------------------
+
+Credit to Ben Sparks of gamedevacademy.org for his guide on creating idle games and providing a template to use. 
+URL:
+    https://gamedevacademy.org/phaser-tutorial-how-to-create-an-idle-clicker-game/
 
