@@ -48,7 +48,7 @@ File(s):
 ----------------------------------------
 
 Title:
-    Forest Background
+    Aekashics Sprites
 
 Author:
     Ækashics
